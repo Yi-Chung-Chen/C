@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-using namespace std;
+using namespace std; //only process b>0 can't process sqrt.
 int power (int a,int b ){
     int sum = 1;
     for(int i=0;i<b;i++){
